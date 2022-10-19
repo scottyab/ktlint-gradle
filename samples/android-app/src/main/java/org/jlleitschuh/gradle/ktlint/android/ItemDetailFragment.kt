@@ -1,11 +1,12 @@
 package org.jlleitschuh.gradle.ktlint.android
 
+// Import order has been changed to cause ktlint fail
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
+import org.jlleitschuh.gradle.ktlint.android.databinding.ItemDetailBinding
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import org.jlleitschuh.gradle.ktlint.android.databinding.ItemDetailBinding
 import org.jlleitschuh.gradle.ktlint.android.dummy.DummyContent
 
 /**

@@ -6,7 +6,7 @@ private const val TAG = "AndroidLocationProvider"
 
 class AndroidLocationProvider : LocationProvider {
     override fun startLocationFix() {
-        Log.d(TAG, "Starting requesting location updates")
+        Log.d(TAG, "Starting requesting location updates This change is meant to ensure that ktlint fails")
     }
 
     override fun stopLocationFix() {
